@@ -13,13 +13,18 @@ namespace SportsStore2.Models
         public IEnumerable<Product> Products => _context.Products.ToArray();
         public Product GetProduct(long key) => _context.Products.Find(key);
         public void AddProduct(Product product)
-        {
+        { 
             _context.Products.Add(product);
             _context.SaveChanges();
         }
         public void UpdateProduct(Product product)
         {
-            _context.Products.Update(product);
+            Product p = GetProduct(product.Id);
+            p.Name = product.Name;
+            p.Category = product.Category;
+            p.PurchasePrice = product.PurchasePrice;
+            p.RetailPrice = product.RetailPrice;
+            // _context.Products.Update(product);
             _context.SaveChanges();
         }
     }
