@@ -13,13 +13,23 @@ namespace SportsStore2.Controllers
         public HomeController(IRepository repository) => _repository = repository;
         public IActionResult Index() 
         {
-            System.Console.Clear();
+            // System.Console.Clear();
             return View(_repository.Products);
         }
         [HttpPost]
         public IActionResult AddProduct(Product product)
         {
             _repository.AddProduct(product);
+            return RedirectToAction(nameof(Index));
+        }
+        public IActionResult UpdateProduct(long key)
+        {
+            return View(_repository.GetProduct(key));
+        }
+        [HttpPost]
+        public IActionResult UpdateProduct(Product product)
+        {
+            _repository.UpdateProduct(product);
             return RedirectToAction(nameof(Index));
         }
 

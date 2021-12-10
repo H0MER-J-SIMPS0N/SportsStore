@@ -16316,6 +16316,11 @@
       "FilePath": "/home/user/Документы/repos/SportsStore2/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/user/Документы/repos/SportsStore2/Views/Home/UpdateProduct.cshtml",
+      "TargetPath": "Views\\Home\\UpdateProduct.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
