@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ZiGs0UbDqOYnfcRdNMU2DbHz9Ki2xSH+BvTcBp33D1yswfUL4hnStFrPN6ecsRz4Fvf4oDbADPE5bSJ9fg7B8w==",
+  "dgSpecHash": "X+t5EFxzjBVRHw7//BSiCLAayRiYdnThi70NaHr1s5hFUWuHq0N1t3mLSZR4S47v3Wrfa5cXfpwAWpvOeDYa+g==",
   "success": true,
   "projectFilePath": "/home/user/Документы/repos/SportsStore2/SportsStore2.csproj",
   "expectedPackageFiles": [
+    "/home/user/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.data.sqlite.core/6.0.0/microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.0/microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.entityframeworkcore.design/6.0.0/microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.0/microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.0/microsoft.entityframeworkcore.sqlite.6.0.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.0/microsoft.entityframeworkcore.sqlite.core.6.0.0.nupkg.sha512",
