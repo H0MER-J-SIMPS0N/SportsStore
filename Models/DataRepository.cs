@@ -27,5 +27,25 @@ namespace SportsStore2.Models
             // _context.Products.Update(product);
             _context.SaveChanges();
         }
+        public void UpdateAll(Product[] products)
+        {
+            // _context.Products.UpdateRange(products);
+            Dictionary<long, Product> data = products.ToDictionary(p => p.Id);
+            IEnumerable<Product> baseline = _context.Products.Where(p => data.Keys.Contains(p.Id));
+            foreach (Product databaseProduct in baseline)
+            {
+                Product requestProduct = data[databaseProduct.Id];
+                databaseProduct.Name = requestProduct.Name;
+                databaseProduct.Category = requestProduct.Category;
+                databaseProduct.PurchasePrice = requestProduct.PurchasePrice;
+                databaseProduct.RetailPrice = requestProduct.RetailPrice;
+            }
+            _context.SaveChanges();
+        }
+        public void Delete(Product product)
+        {
+            _context.Products.Remove(product);
+            _context.SaveChanges();
+        }
     }
 }

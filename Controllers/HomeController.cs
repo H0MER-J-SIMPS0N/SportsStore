@@ -32,6 +32,23 @@ namespace SportsStore2.Controllers
             _repository.UpdateProduct(product);
             return RedirectToAction(nameof(Index));
         }
+        public IActionResult UpdateAll()
+        {
+            ViewBag.UpdateAll = true;
+            return View(nameof(Index), _repository.Products);
+        }
+        [HttpPost]
+        public IActionResult UpdateAll(Product[] products)
+        {
+            _repository.UpdateAll(products);
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        public IActionResult Delete(Product product)
+        {
+            _repository.Delete(product);
+            return RedirectToAction(nameof(Index));
+        }
 
     }
 }

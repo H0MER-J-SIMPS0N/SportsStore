@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/Документы/repos/SportsStore2/SportsStore2.csproj": {}
+    "C:\\Users\\kuznecov.d\\source\\repos\\Learning\\SportsStore\\SportsStore2.csproj": {}
   },
   "projects": {
-    "/home/user/Документы/repos/SportsStore2/SportsStore2.csproj": {
+    "C:\\Users\\kuznecov.d\\source\\repos\\Learning\\SportsStore\\SportsStore2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/Документы/repos/SportsStore2/SportsStore2.csproj",
+        "projectUniqueName": "C:\\Users\\kuznecov.d\\source\\repos\\Learning\\SportsStore\\SportsStore2.csproj",
         "projectName": "SportsStore2",
-        "projectPath": "/home/user/Документы/repos/SportsStore2/SportsStore2.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/Документы/repos/SportsStore2/obj/",
+        "projectPath": "C:\\Users\\kuznecov.d\\source\\repos\\Learning\\SportsStore\\SportsStore2.csproj",
+        "packagesPath": "C:\\Users\\kuznecov.d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kuznecov.d\\source\\repos\\Learning\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kuznecov.d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
